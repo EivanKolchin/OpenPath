@@ -1,18 +1,22 @@
 {
-  "name": "gods-eye-view",
+  "name": "openpath",
   "private": true,
   "version": "0.1.1",
-  "description": "A real-time intelligence console for planet Earth — photorealistic 3D globe, live aircraft/ships/satellites/earthquakes/CCTV, and hands-free voice control. Runs in a browser.",
+  "description": "OpenPath — an open intelligence platform for planet Earth. Live 3D globe, place-anchored communities, and multi-source search across the open web and the archives. Forked from God's Eye View by Bilawal Sidhu (MIT).",
   "type": "module",
   "license": "MIT",
-  "author": "Bilawal Sidhu",
-  "homepage": "https://github.com/bilawalsidhu/gods-eye-view#readme",
+  "author": "Eivan Kolchin (https://github.com/EivanKolchin)",
+  "contributors": [
+    "Bilawal Sidhu (https://github.com/bilawalsidhu)",
+    "Sameh Khamis (https://github.com/samehkhamis)"
+  ],
+  "homepage": "https://github.com/EivanKolchin/gods-eye-view-fork#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view.git"
+    "url": "https://github.com/EivanKolchin/gods-eye-view-fork.git"
   },
   "bugs": {
-    "url": "https://github.com/bilawalsidhu/gods-eye-view/issues"
+    "url": "https://github.com/EivanKolchin/gods-eye-view-fork/issues"
   },
   "engines": {
     "node": ">=24.14.0 <25 || >=26 <27"
@@ -29,7 +33,10 @@
     "satellites",
     "voice-control",
     "openai-realtime",
-    "visualization"
+    "visualization",
+    "open-source-intelligence",
+    "archive-diffing",
+    "fork"
   ],
   "scripts": {
     "doctor": "node scripts/setup-doctor.mjs",
